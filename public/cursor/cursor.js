@@ -1,11 +1,3 @@
-// const menu = document.getElementById("menu");
-// const btn = document.getElementById("btn");
-const circle = document.getElementById("circle");
-console.log(circle);
-// btn.addEventListener("click", () => {
-//   menu.classList.toggle("open");
-// });
-
 document.addEventListener("mousemove", (e) => {
   const height = circle.offsetHeight;
   const width = circle.offsetWidth;
@@ -20,8 +12,11 @@ document.addEventListener("mousemove", (e) => {
     circle.classList.remove("big");
   }
 
-  setTimeout(() => {
-    circle.style.left = `${e.pageX - width / 2}px`;
-    circle.style.top = `${e.pageY - height / 2}px`;
-  }, 20);
+  circle.style.left = `${e.pageX - width / 2}px`;
+  circle.style.top = `${e.pageY - height / 2}px`;
+
+  // console.log(`Mouse X: ${e.pageX}, Mouse Y: ${e.pageY}`);
+  // console.log(
+  //   `Circle Left: ${circle.style.left}, Circle Top: ${circle.style.top}`
+  // );
 });

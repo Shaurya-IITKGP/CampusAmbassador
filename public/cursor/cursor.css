@@ -76,7 +76,7 @@
   border: 5px solid white;
   border-radius: 50%;
   box-shadow: 0 0 50px yellow;
-  pointer-events: all;
+  pointer-events: none;
   position: fixed;
   top: -10rem;
   left: -10rem;
@@ -86,6 +86,6 @@
 }
 
 .circle.big {
-  background: white;
+  background: yellow;
   transform: scale(2);
 }
