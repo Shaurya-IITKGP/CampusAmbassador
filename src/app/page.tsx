@@ -1,3 +1,4 @@
+
 // import { FaArrowRight } from 'react-icons/fa';
 import Footer from '@/components/Footer';
 import ronnyImage from '../assets/ronny.jpg';
@@ -68,3 +69,4 @@ export default function Home() {
   
   );
 }
+
