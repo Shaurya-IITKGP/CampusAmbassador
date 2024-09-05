@@ -1,3 +1,5 @@
+
+// this is the navbar for the same
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
