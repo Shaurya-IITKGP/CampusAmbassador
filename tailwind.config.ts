@@ -8,6 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        nf: ['20px', '24px'],
+      },
+      screens:{
+        'x1': {'max': '1200px'},
+        'x2': {'max': '1080px'},
+        'x3': {'max': '900px'},
+        'x4': {'max': '690px'},
+        'x5': {'max': '610px'},
+        'x6': {'max': '415px'},
+        'x7': {'max': '390px'},
+        'xn': {'min': '901px'}
+      },
+      scale:{
+        '90':'0.90',
+        '80':'0.80',
+        '107':'1.07'
+      },
       keyframes: {
         gradient: {
           '0%, 100%': { 'background-position': '0% 50%' },

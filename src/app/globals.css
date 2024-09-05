@@ -4,10 +4,11 @@
 @tailwind utilities;
 
 body{
-    /* background-color: black; */
-    background-image:url('../assets/basketball.jpg');
+    background-color: black;
+    /* background-image:url('../assets/basketball.jpg'); */
     background-repeat: no-repeat;
     inset: 0;
     z-index: 0;
+    min-height:max-content;
 
 }
