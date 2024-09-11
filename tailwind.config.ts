@@ -19,6 +19,7 @@ const config: Config = {
         'x5': {'max': '610px'},
         'x6': {'max': '415px'},
         'x7': {'max': '390px'},
+        'xm': {'max': '490px'},
         'xn': {'min': '901px'}
       },
       scale:{

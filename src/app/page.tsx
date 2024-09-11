@@ -6,7 +6,7 @@ export default function Home() {
   return (
 
     <div className=" z-20 bg-opacity-55 min-h-screen">
-    {/* <div className=" text-white font-bold flex font-mono justify-center select-none items-center text-8xl">
+    <div className=" text-white font-bold flex font-mono justify-center select-none items-center text-8xl">
       <div className=" mt-24 animate-slide-down">
       <div className="text-center ">
   <span className="bg-gradient-to-r  from-white  to-red-500 bg-clip-text text-transparent animate-gradient-move bg-size-200">
@@ -56,7 +56,7 @@ export default function Home() {
           </button>
           
         </p>
-     </div> */}
+     </div>
 
      
      <Incentives/>
