@@ -1,47 +1,39 @@
-import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+
+import React from 'react'
 
 const Navbar = () => {
   return (
-    <>
-      <div className=" flex justify-center ">
-        <div
-          className=" bg-gray-800 bg-opacity-60 w-full flex justify-between pl-4 pr-8"
-          id="components-layer"
-        >
-          <div id="logo" className="text-xl">
-            <img height={100} width={100} src="Shaurya_Logo.png" alt="Logo" />
-          </div>
+    <div className=' flex justify-evenly mt-8'>
+      <div id='logo' className='w-2/12 flex justify-center'>
+        <img src="Shaurya Logo with iit kgp 1.png" alt="" />
 
-          <div
-            id="other-buttons"
-            className=" flex flex-row space-x-10 mt-8 text-white font-mono select-none   "
-          >
-            <div className="cursor-pointer  ">Home</div>
-            <div className="cursor-pointer  ">About Us</div>
-            <div className="cursor-pointer  ">Responsibilities</div>
-            <div className="cursor-pointer  ">Incentives</div>
-            <div className="cursor-pointer  ">Gifts</div>
-            <div className="cursor-pointer  ">Contact Us</div>
-
-            <div className="cursor-pointer   ">
-              <button className=" border-none pb-1 rounded-md bg-red-500 pl-2 pr-2 hover:bg-white hover:text-red-500 ">
-                Signup
-              </button>
-            </div>
-            <div className="cursor-pointer flex space-x-1  ">
-              <span>Signin</span>
-
-              <span className="mt-1">
-                <FaArrowRight />
-              </span>
-            </div>
-          </div>
-        </div>
       </div>
-      <div className=" border border-b-0 border-gray-200 border-opacity-25" />
-    </>
-  );
-};
 
-export default Navbar;
+      <div id='main-components' className=' bg-slate-700 border border-slate-700 bg-opacity-20 text-white  flex justify-evenly p-4 cursor-pointer  w-8/12 rounded-full'>
+        <div className='hover:text-lightOrange'>Home</div>
+        <div className='hover:text-lightOrange'>About Us</div>
+        <div className='hover:text-lightOrange'>Why CA</div>
+        <div className='hover:text-lightOrange'>Responsibilities</div>
+        <div className='hover:text-lightOrange'>Incentives</div>
+        <div className='hover:text-lightOrange'>FAQs</div>
+        <div className='hover:text-lightOrange'>Contact Us</div>
+
+      </div>
+
+      <div id='login-signup' className='text-white flex justify-center w-2/12'>
+      <div className='flex border rounded-full border-slate-700 cursor-pointer'>
+      <div className='bg-darkOrange border border-lightOrange w-1/2 font-light rounded-full p-4'>
+          Login
+        </div>
+        <div className=' p-4 w-1/2 font-light'>
+          Signup
+          </div>
+      </div>
+       
+
+      </div>
+    </div>
+  )
+}
+
+export default Navbar

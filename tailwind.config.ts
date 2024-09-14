@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        'lightOrange':"#F3B333",
+        'darkOrange':'#B46100'
+      },
       keyframes: {
         gradient: {
           '0%, 100%': { 'background-position': '0% 50%' },
           '50%': { 'background-position': '100% 50%' },
         },
+        
         slideUp: {
           '0%': { transform: 'translateY(100%)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
@@ -42,6 +47,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+  
   },
   plugins: [],
 };

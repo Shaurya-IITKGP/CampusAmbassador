@@ -3,9 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 body {
   margin: 0;
   background-color: black;
+  font-family: 'Bebas Neue', sans-serif;
   /* background-color: black; */
   /* background-image:url('../assets/basketball.jpg');
     background-repeat: no-repeat;
