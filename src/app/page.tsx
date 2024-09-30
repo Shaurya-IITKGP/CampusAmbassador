@@ -2,16 +2,21 @@
 import Footer from '../components/Footer.tsx';
 import NewHome from '../components/NewHome.tsx'
 import React from 'react'
+import Incentives from '../components/Incentives.tsx';
 
 export default function Home() {
   return (
     <div>
 
-     <NewHome/>
-     
-     <Footer/>
+    <div>
+      <NewHome/>
+      <div >
+      <Incentives/>
+      </div>
+      <Footer/>
     </div> 
    
+    </div>
   
   
   );
