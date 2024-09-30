@@ -2,7 +2,7 @@
 import Footer from '../components/Footer.tsx';
 import NewHome from '../components/NewHome.tsx'
 import React from 'react'
-import Incentives from '../components/Incentives.tsx';
+import Incentives from '../app/incentives/page.tsx';
 
 export default function Home() {
   return (
