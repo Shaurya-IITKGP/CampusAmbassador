@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
+import Link from 'next/link'
 
 const Navbar = () => {
   const [isClicked,setIsClicked] = useState<boolean>(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
         <div className='hover:text-lightOrange'>About Us</div>
         <div className='hover:text-lightOrange'>Why CA</div>
         <div className='hover:text-lightOrange'>Responsibilities</div>
-        <div className='hover:text-lightOrange'>Incentives</div>
+        <Link href='/incentives' className='hover:text-lightOrange'>Incentives</Link>
         <div className='hover:text-lightOrange'>FAQs</div>
         <div className='hover:text-lightOrange'>Contact Us</div>
 
