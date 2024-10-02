@@ -4,6 +4,7 @@ import NewHome from '../components/NewHome.tsx'
 import React from 'react'
 import Incentives from '../app/incentives/page.tsx';
 import About from '@/components/About.tsx';
+import WhyCa from '@/components/WhyCa.tsx';
 
 export default function Home() {
   return (
@@ -11,10 +12,13 @@ export default function Home() {
 
     <div>
       <NewHome/>
+      <About/>
+      <WhyCa/>
       <div >
       <Incentives/>
       </div>
-      <About/>
+     
+     
       <Footer/>
     </div> 
    
