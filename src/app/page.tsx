@@ -6,6 +6,7 @@ import Incentives from '../app/incentives/page.tsx';
 import About from '@/components/About.tsx';
 import WhyCa from '@/components/WhyCa.tsx';
 import Responsibilities from '../components/Responsibilities.tsx';
+import FAQAccordion from '@/components/FAQccodion.tsx';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Incentives/>
       </div>
      
+     <FAQAccordion/>
      
       <Footer/>
     </div> 
