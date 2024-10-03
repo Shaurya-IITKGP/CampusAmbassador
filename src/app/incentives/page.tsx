@@ -57,7 +57,7 @@ const Incentives = () => {
 
             </div>
             <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-xl hover:shadow-orange-500 shadow-white p-2 text-md font-sans grid items-center h-[120px] w-11/12 opacity-85 '>
-            Premium gift assortments and curated hampers presented upon the fest's conclusion.
+            Premium gift assortments and curated hampers presented upon the fest`&apos;`s conclusion.
 
             </div>
           </div>
