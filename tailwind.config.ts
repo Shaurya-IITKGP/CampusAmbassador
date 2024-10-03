@@ -9,39 +9,26 @@ const config: Config = {
   theme: {
     extend: {
       keyframes: {
-        gradient: {
-          '0%, 100%': { 'background-position': '0% 50%' },
-          '50%': { 'background-position': '100% 50%' },
+        growBorder: {
+          '0%': { height: '0' },
+          '100%': { height: 'h-200px' },
         },
-        slideUp: {
-          '0%': { transform: 'translateY(100%)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
-        },
-        slideDown: {
-          '0%': { transform: 'translateY(-100%)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
-        },
-        slideInRight: {
-          '0%': { transform: 'translateX(100%)', opacity: '0' },
-          '100%': { transform: 'translateX(0)', opacity: '1' },
-        },
-      },
-      animation: {
-        'gradient-move': 'gradient 5s ease infinite',
-        'slide-up': 'slideUp 1s ease-out',
-        'slide-down': 'slideDown 1s ease-out',
-        'slide-in-right': 'slideInRight 1s ease-out',
-      
-      },
-      backgroundSize: {
-        'size-200': '200% 200%',
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        rotate: {
+          '0%': { transform: 'rotate(0deg) scale(10)' },
+          '100%': { transform: 'rotate(-360deg) scale(10)' },
       },
     },
+      animation: {
+        growBorder: 'growBorder 1s ease-out forwards',
+        rotate: 'rotate 10s linear infinite',
+      },
+      colors:{
+        'lightOrange':"#F3B333",
+        'darkOrange':'#B46100'
+      },
+      
+    },
+  
   },
   plugins: [],
 };
