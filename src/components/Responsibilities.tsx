@@ -6,8 +6,10 @@ import ResponsibilityCard from './ResponsibilityCard.tsx';
 
 const Responsibilities = () => {
     const [select , setSelect] = useState(1);
+    const [left , setLeft] = useState(false);
     const handleClickRight = ()=>
       {
+         setLeft(false);
          if(select===3){
             setSelect(1);
           }
@@ -19,6 +21,7 @@ const Responsibilities = () => {
 
     const handleClickLeft = ()=>
       {
+         setLeft(true);
          if(select===1){
             setSelect(3);
           }
@@ -55,12 +58,13 @@ const Responsibilities = () => {
        <div className='w-full h-4/5 flex justify-center '>
          <div className='w-full h-full'>
             {description.map((item,index)=>(
-          select===(index+1) ? <ResponsibilityCard cardData={item}/> :""
+          select===(index+1) ? <ResponsibilityCard cardData={item} animate={!left?'animate-slide-in-right':"animate-slide-in-left"}/> :""
                
             ))}
 
          </div>
        </div>
+       
     </div>
   )
 }

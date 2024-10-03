@@ -13,6 +13,13 @@ const config: Config = {
           '0%': { height: '0' },
           '100%': { height: 'h-200px' },
         },
+        'slide-in-left': {
+          '0%': { transform: 'translateX(-100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },},
+        slideInRight: {
+          '0%': { transform: 'translateX(100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
         rotate: {
           '0%': { transform: 'rotate(0deg) scale(10)' },
           '100%': { transform: 'rotate(-360deg) scale(10)' },
@@ -21,6 +28,8 @@ const config: Config = {
       animation: {
         growBorder: 'growBorder 1s ease-out forwards',
         rotate: 'rotate 10s linear infinite',
+        'slide-in-right': 'slideInRight 1s ease-out',
+        'slide-in-left': 'slide-in-left 1s ease-out', 
       },
       colors:{
         'lightOrange':"#F3B333",
