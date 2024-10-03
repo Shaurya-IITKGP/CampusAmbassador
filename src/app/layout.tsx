@@ -3,8 +3,6 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import './globals.css';
-import Script from "next/script";
-import Footer from "@/components/Footer";
 import React from 'react'
         
         
@@ -25,7 +23,7 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+        
           rel="stylesheet"
         />
       </head>
@@ -34,13 +32,7 @@ export default function RootLayout({
 
         <Navbar />
         {children}
-        {/* Load cursor JS file using Next.js Script component */}
-        {/* <Script
-          src="/cursor/cursor.js"
-          strategy="afterInteractive"
-          // onLoad={() => console.log("Cursor JS loaded")}
-          // onError={(e) => console.error("Cursor JS failed to load", e)}
-        /> */}
+      
       </body>
     </html>
   );

@@ -4,6 +4,7 @@ import Certificate from '../../assets/cert.png'
 import Goodies from '../../assets/good.png'
 import Invitation from '../../assets/invite.png' 
 import Networking from '../../assets/network4.png'
+import Image from 'next/image'
 
 const Incentives = () => {
   return (
@@ -25,7 +26,7 @@ const Incentives = () => {
           {/* Certificate Section */}
           <div className=' flex mb-4  w-11/12 mr-8 '>
             <div className='  justify-center duration-300 hover:cursor-pointer hover:scale-105'>
-              <img src={Certificate.src} alt="none" className='h-[120px] p-2 mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+              <Image width={120} height={120} src={Certificate.src} alt="none" className='h-[120px] p-2 mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
             </div>
             <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-2xl  hover:shadow-orange-500 shadow-white p-2 text-md font-sans grid items-center h-[120px] text-center w-11/12 opacity-85 '>
               Certificate of Acknowledgment, duly signed by the Chairman of Shaurya IIT Kharagpur and the President of Gymkhana IIT Kharagpur, upon the triumphant completion of the service period.
@@ -38,7 +39,7 @@ const Incentives = () => {
           {/* Invitation Section */}
           <div className='flex  mb-4 mt-28 w-11/12 ml-8 '>
           <div className='  justify-center duration-300 hover:cursor-pointer hover:scale-105'>
-          <img src={Invitation.src} alt="none" className='h-[120px] mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+          <Image  width={120} height={120} src={Invitation.src} alt="none" className='h-[120px] mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
 
             </div>
             <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-xl  hover:shadow-orange-500 shadow-white p-2 text-md font-sans grid items-center h-[120px] w-11/12 opacity-85 '>
@@ -52,7 +53,7 @@ const Incentives = () => {
           <div className=' flex  mb-4 w-11/12 mr-8 '>
 
             <div className='  justify-center duration-300 hover:cursor-pointer hover:scale-105'>
-            <img src={Goodies.src} alt="none" className='h-[120px] mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+            <Image width={120} height={120} src={Goodies.src} alt="none" className='h-[120px] mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
 
             </div>
             <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-xl hover:shadow-orange-500 shadow-white p-2 text-md font-sans grid items-center h-[120px] w-11/12 opacity-85 '>
@@ -66,7 +67,7 @@ const Incentives = () => {
           {/* Invitation Section */}
           <div className='flex  mb-4 mt-28 w-11/12 ml-8'>
           <div className='  justify-center duration-300 hover:cursor-pointer hover:scale-105'>
-          <img src={Networking.src} alt="none" className='h-[120px] mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+          <Image width={120} height={120} src={Networking.src} alt="none" className='h-[120px] mr-3 grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
 
 
             </div>
