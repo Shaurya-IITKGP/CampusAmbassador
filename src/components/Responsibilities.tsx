@@ -47,7 +47,7 @@ const Responsibilities = () => {
         <div onClick={handleClickLeft} className=' bg-slate-900 rounded-full p-4 cursor-pointer hover:bg-white hover:text-black'><FaArrowLeft size={32}/></div>
          {
             responsiblity.map((item:string,index:number)=>(
-                <div className={(select===index+1)?'text-4xl underline underline-offset-8 hover:cursor-pointer text-lightOrange font-bold mt-2 ':'text-4xl font-bold mt-2 '}>
+                <div key={index} className={(select===index+1)?'text-4xl underline underline-offset-8 hover:cursor-pointer text-lightOrange font-bold mt-2 ':'text-4xl font-bold mt-2 '}>
                    { item}
                 </div>
             ))
@@ -58,7 +58,7 @@ const Responsibilities = () => {
        <div className='w-full h-4/5 flex justify-center '>
          <div className='w-full h-full'>
             {description.map((item,index)=>(
-          select===(index+1) ? <ResponsibilityCard cardData={item} animate={!left?'animate-slide-in-right':"animate-slide-in-left"}/> :""
+          select===(index+1) ? <ResponsibilityCard key={index} cardData={item} animate={!left?'animate-slide-in-right':"animate-slide-in-left"}/> :""
                
             ))}
 

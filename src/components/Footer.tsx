@@ -18,10 +18,10 @@ const Footer = () => {
                     Follow Us
                 </p>
                 <div className='flex justify-center  gap-7'>
-                    <a  href='https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/' ><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/facebook.png'   /></a>
-                    <a href='https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA=='><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/instagram.png'/></a>
-                    <a href='https://youtube.com/@shauryaiitkharagpur?si=k3lk4kX4b3kLvZpG'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/youtube1.png'/></a>
-                    <a href='https://www.linkedin.com/company/shaurya-iit-kharagpur/'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/linkedin1.png' /></a>
+                    <a  href='https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/' ><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/facebook.png' alt=""    /></a>
+                    <a href='https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA=='><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/instagram.png' alt="" /></a>
+                    <a href='https://youtube.com/@shauryaiitkharagpur?si=k3lk4kX4b3kLvZpG'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/youtube1.png' alt="" /></a>
+                    <a href='https://www.linkedin.com/company/shaurya-iit-kharagpur/'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='/linkedin1.png'  alt="" /></a>
                 </div>
              </div>
         </div>
@@ -39,17 +39,17 @@ const Footer = () => {
                 <div className=' w-[100%] lg:w-[50%] '>
                     <div className=' w-[70%] lg:ml-[20%]'>
                         <div className=' mx-auto  w-[154px] h-[204px] bg-gradient-to-r from-amber-500 from-10% via-orange-600 via-30% to-yellow-500 to-90% hover:animate-pulse bg-size-200 rounded-[20px]'>
-                            <Image width={150} height={200} className=' w-[150px] h-[200px] bg-black pt-[2px] rounded-[20px] mx-auto mt-[2px]  ' src='Tuhsin.jpg'  />
+                            <Image width={150} height={200} className=' w-[150px] h-[200px] bg-black pt-[2px] rounded-[20px] mx-auto mt-[2px]  ' src='Tuhsin.jpg' alt=""   />
                         </div>
                         <div className='block min-h-10 w-[100%]   '>
                             <p className='text-white pt-3 text-center '>
                             Tuhsin Suhana Rahman
                             </p>
                             <div className='flex justify-center  gap-7'>
-                    <a  href='https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/' ><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='facebook.png'   /></a>
-                    <a href='https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA=='><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='instagram.png'/></a>
-                    <a href='mailto:tuhsinsrahman.shaurya.iitkgp@gmail.com'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='mail.png'/></a>
-                    <a href='https://www.linkedin.com/company/shaurya-iit-kharagpur/'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='linkedin1.png' /></a>
+                    <a  href='https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/' ><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='facebook.png' alt=""    /></a>
+                    <a href='https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA=='><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='instagram.png' alt="" /></a>
+                    <a href='mailto:tuhsinsrahman.shaurya.iitkgp@gmail.com'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='mail.png' alt="" /></a>
+                    <a href='https://www.linkedin.com/company/shaurya-iit-kharagpur/'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' alt=""  src='linkedin1.png' /></a>
                 </div>
                           
                             <p className='text-white pt-3 text-center'>
@@ -63,17 +63,17 @@ const Footer = () => {
                 <div className=' w-[100%] lg:w-[50%] '>
                     <div className=' w-[70%] lg:ml-[20%] '>
                         <div className=' mx-auto  w-[154px] h-[204px] bg-gradient-to-r from-amber-500 from-10% via-orange-600 via-30% to-yellow-500 to-90% hover:animate-pulse bg-size-200 rounded-[20px]'>
-                            <Image width={150} height={200} className=' w-[150px] h-[200px] bg-black pt-[2px] rounded-[20px] mx-auto mt-[2px]  ' src='Hemant.jpg'  />
+                            <Image width={150} height={200} className=' w-[150px] h-[200px] bg-black pt-[2px] rounded-[20px] mx-auto mt-[2px]  ' src='Hemant.jpg' alt=""  />
                         </div>
                         <div className='block min-h-10 w-[100%]   '>
                             <p className='text-white pt-3 text-center '>
                                 Hemant Kamble
                             </p>
                             <div className='flex justify-center  gap-7'>
-                    <a  href='https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/' ><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='facebook.png'   /></a>
-                    <a href='https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA=='><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='instagram.png'/></a>
-                    <a href='mailto:hemant.kamble@shauryaiitkgp.in'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='mail.png'/></a>
-                    <a href='https://www.linkedin.com/company/shaurya-iit-kharagpur/'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='linkedin1.png' /></a>
+                    <a  href='https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/' ><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='facebook.png' alt=""   /></a>
+                    <a href='https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA=='><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='instagram.png' alt="" /></a>
+                    <a href='mailto:hemant.kamble@shauryaiitkgp.in'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='mail.png' alt="" /></a>
+                    <a href='https://www.linkedin.com/company/shaurya-iit-kharagpur/'><Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='linkedin1.png' alt="" /></a>
                 </div>
                             
                             <p className='text-white pt-3 text-center'>
@@ -90,10 +90,10 @@ const Footer = () => {
                     Follow Us
                 </p>
                 <div className='flex justify-center  gap-7'>
-                    <Image width={30} height={30} className='w-[30px] h-[30px]' src='facebook.png' alt='logo' />
-                    <Image width={30} height={30} className='w-[30px] h-[30px]' src='instagram.png'/>
-                    <Image width={30} height={30} className='w-[30px] h-[30px]' src='youtube1.png'/>
-                    <Image width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='facebook.png' />
+                    <Image alt="" width={30} height={30} className='w-[30px] h-[30px]' src='facebook.png' alt='logo' />
+                    <Image alt="" width={30} height={30} className='w-[30px] h-[30px]' src='instagram.png' alt="" />
+                    <Image alt="" width={30} height={30} className='w-[30px] h-[30px]' src='youtube1.png' alt="" />
+                    <Image alt="" width={30} height={30} className='w-[30px] h-[30px] cursor-pointer hover:brightness-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110' src='facebook.png' alt="" />
                 </div>
              </div>
     </div>

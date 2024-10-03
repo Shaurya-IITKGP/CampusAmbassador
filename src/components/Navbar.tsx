@@ -3,13 +3,14 @@ import React, { useState } from 'react'
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [isClicked,setIsClicked] = useState<boolean>(false);
   return (
     <div className=' flex justify-between lg:justify-evenly mt-8  '>
       <div id='logo' className='w-3/12 lg:w-1/12 flex justify-center'>
-        <img src="Shaurya Logo with iit kgp 1.png" alt="" />
+        <Image width={100} height={100} src="/Shaurya Logo with iit kgp 1.png" alt="" />
 
       </div>
 
