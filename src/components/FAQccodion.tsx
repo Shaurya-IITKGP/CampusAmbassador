@@ -13,11 +13,11 @@ const FAQAccordion: React.FC = () => {
     <div className='grid justify-center text-white h-screen'>
       <div className='text-5xl font-extrabold flex justify-center font-sans bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text'>
         <div className='w-2/3 text underline text-lightOrange underline-offset-8 ml-4'> FAQ </div> 
-        <div className=''>
+        <div className=' mt-32'>
           {faqData.map((data, index) => {
             const isOpen = openIndex === index; 
             return (
-              <div key={index} className='bg-slate-900 min-h-[50px] w-3/4 rounded-xl relative shadow-md hover:shadow-yellow-600 shadow-white m-6 top-[15px] right-[30px]'>
+              <div key={index} className='bg-slate-900 mt-12 min-h-[50px] w-3/4 rounded-xl relative shadow-md hover:shadow-yellow-600 shadow-white m-6 top-[15px] right-[30px]'>
                 <label className='flex justify-center hover:text-yellow-500 hover:cursor-pointer text-lg mt-2 pt-2'>
                   <input 
                     type="checkbox" 
