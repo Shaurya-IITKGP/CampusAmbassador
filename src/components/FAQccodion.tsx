@@ -10,7 +10,7 @@ const FAQAccordion: React.FC = () => {
   }
 
   return (
-    <div className='grid justify-center text-white'>
+    <div className='grid justify-center text-white h-screen'>
       <div className='text-5xl font-extrabold flex justify-center font-sans bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text'>
         <div className='w-2/3 text underline text-lightOrange underline-offset-8 ml-4'> FAQ </div> 
         <div className=''>
