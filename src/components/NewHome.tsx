@@ -35,9 +35,9 @@ const NewHome = () => {
           </div>
 
           {/* Subheading */}
-          <div className="text-white text-xl lg:text-2xl flex  lg:ml-24 justify-center mt-3">
-            <div className=" font-sans font-semibold animate-slide-in-right">
-              <p className="font-bold">UNLEASH THE SHAURYA</p>
+          <div className="text-white text-xl lg:text-2xl flex justify-end mt-3 w-full">
+            <div className=" font-sans flex font-semibold animate-slide-in-right">
+              <p className="text-sm font-normal  ">UNLEASH THE SHAURYA</p>
             </div>
           </div>
 
@@ -48,7 +48,8 @@ const NewHome = () => {
           </div>
 
           {/* CTA Button */}
-          <div id="Become a Campus Ambassador" className="text-white mt-10 flex text-center  lg:ml-12 justify-center w-full animate-slideUp">
+          <div id="Become a Campus Ambassador" className="text-white mt-10 mr-20 flex justify-center md:justify-around  w-full animate-slideUp">
+            <div className='text-black select-none md:block hidden'>hello</div>
             <button className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96 justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
               <div>Apply to become Shaurya CA</div>
               <div className="mt-1">
@@ -109,7 +110,6 @@ const NewHome = () => {
   }
 `}</style>
 
-<div className=" border border-lightOrange border-b opacity-50 md:hidden mt-32"/>
 
     </div>
   );
