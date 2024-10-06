@@ -5,12 +5,13 @@ import { FaArrowRight } from 'react-icons/fa';
 const NewHome = () => {
   return (
     <div>
-      <div className="z-20 bg-opacity-55 h-screen">
+        <div className="relative bg-custom-bg bg-cover bg-center bg-fixed h-screen flex flex-col justify-center items-center">
+      <div className="z-20 bg-opacity-55  h-screen sm:flex sm:flex-col sm:justify-center items-center">
         {/* Main Heading */}
-        <div className="text-white font-extrabold flex font-sans justify-center select-none items-center text-8xl">
+        <div className="text-white font-extrabold flex font-sans justify-center select-none items-center text-4xl sm:text-8xl">
           <div className="mt-24 animate-slide-down">
             <div className="text-center mt-20">
-              <span className="bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent animate-gradient-move bg-size-200">
+              <span className="bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent animate-gradient-move  bg-size-200">
                 CA
               </span>
               <span className="bg-gradient-to-r from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent animate-gradient-move bg-size-200">
@@ -45,6 +46,7 @@ const NewHome = () => {
             </div>
           </button>
         </div>
+      </div>
       </div>
 
       <style jsx>{`
@@ -104,6 +106,13 @@ const NewHome = () => {
 
         .animate-slide-in-right {
           animation: slideInRight 1s ease-out;
+        }
+          .bg-custom-bg {
+          background-image: url('background.png'); 
+          background-attachment: fixed;
+          background-size: 100% 80%; 
+         
+          background-repeat: no-repeat;
         }
       `}</style>
     </div>

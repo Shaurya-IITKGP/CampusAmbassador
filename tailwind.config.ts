@@ -26,7 +26,8 @@ const config: Config = {
         'lightOrange':"#F3B333",
         'darkOrange':'#B46100'
       },
-      
+     
+
     },
   
   },

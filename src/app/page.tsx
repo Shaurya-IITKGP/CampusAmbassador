@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <div>
 
-    <div>
+    <div className='flex flex-col space-y-4'>
+      
       <NewHome/>
       <About/>
       <WhyCa/>
