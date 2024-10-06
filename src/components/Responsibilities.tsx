@@ -1,8 +1,9 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 
 import {FaArrowLeft , FaArrowRight} from 'react-icons/fa'
 import ResponsibilityCard from './ResponsibilityCard.tsx';
+import { MyContext } from './Context.jsx';
 
 const Responsibilities = () => {
     const [select , setSelect] = useState(1);
@@ -36,9 +37,12 @@ const Responsibilities = () => {
 
     const responsiblity = ["BRIDGE" , "PUBLICITY" , "COLLEGE"];
 
+    const {responsibilityView} = useContext(MyContext);
+    
+
     const description = ["To act as a bridge between Shaurya, IIT Kharagpur and your respective your college" , "Publicising Shaurya in your respective colleges by circulating posters, mails or messages in the official college groups","Ensuring participation from your respective colleges for various events conducted by Shaurya."]
   return (
-    <div className=' h-screen w-full'>
+    <div ref={responsibilityView} className=' h-screen w-full'>
        <div>
        <div className='  text-5xl underline text-lightOrange underline-offset-8 ml-4 font-extrabold font-sans'> RESPONSIBILITIES</div> 
        </div>

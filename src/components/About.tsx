@@ -1,16 +1,18 @@
 "use client"
-import React from 'react'
+import React, { useContext } from 'react'
+import { MyContext } from './Context.jsx';
 
 const About = () => {
+  const {aboutView } = useContext(MyContext);
   return (
-    <div className='h-screen relative overflow-hidden'>
+    <div ref={aboutView} className='h-screen relative overflow-hidden'>
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden stars"></div>
     <div className='grid justify-center  '>
   
      <div className=' text-5xl font-extrabold flex justify-center font-sans  bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent bg'>
         <div className='  w-full text underline text-lightOrange underline-offset-8 ml-4 z-10 '>  ABOUT US</div> 
          
-        <div className=" sm:h-3/4 my-32 mr-32 relative z-10  flex  cursor-pointer items-center overflow-hidden rounded-xl  border border-slate-900 p-[1.5px]">
+        <div className=" h-full sm:h-3/4 my-32 mr-32 relative z-10  flex  cursor-pointer items-center overflow-hidden rounded-xl  border border-slate-900 p-[1.5px]">
           <div className="animate-rotate absolute inset-0 h-full  rounded-full bg-[conic-gradient(#FBBF24_20deg,transparent_120deg)] "></div>
           
           <div className=" h-full  z-20 flex  rounded-[0.60rem] bg-gray-950  p-2 ">

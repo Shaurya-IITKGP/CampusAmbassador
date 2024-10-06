@@ -1,11 +1,17 @@
-import React from 'react'
+"use client"
+import React, { useContext } from 'react'
 import Image from 'next/image'
+import { MyContext } from './Context.jsx';
 
 
 const Footer = () => {
+  
+    const {contactView} = useContext(MyContext);
+    
   return (
+    
     <>
-    <div className=' lg:flex block'>
+    <div ref={contactView} className=' lg:flex block'>
         <div className=' lg:w-[45%] w-[100%] '>
             <Image width={300} height={300} className='ml-[15%] w-[50%] h-[300px]' src='/Shaurya_Logo.png' alt='shauryalogo'/>
              <div className='w-[90%] mx-auto'>

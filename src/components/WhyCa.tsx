@@ -1,9 +1,11 @@
-
-import React from 'react'
+"use client"
+import React, { useContext } from 'react'
+import { MyContext } from './Context.jsx';
 
 const WhyCa = () => {
+  const {whyCAView} = useContext(MyContext);
   return (
-    <div className=' h-screen'>
+    <div ref={whyCAView} className=' h-screen'>
     <div className='grid justify-center '>
   
      <div className=' text-5xl font-extrabold flex justify-center font-sans  bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent bg'>

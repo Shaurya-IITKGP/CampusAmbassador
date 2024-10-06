@@ -4,13 +4,14 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import './globals.css';
 import React from 'react'
+import { MyProvider } from "../components/Context.jsx";
         
         
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shaurya Campus Ambassador",
-  description: "Join Shaury and take your career to next level",
+  description: "Join Shaurya and take your career to next level",
 };
 
 export default function RootLayout({
@@ -20,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <MyProvider>
       <head>
         <link rel="stylesheet" />
         <link
@@ -34,6 +36,7 @@ export default function RootLayout({
         {children}
       
       </body>
+      </MyProvider>
     </html>
   );
 }

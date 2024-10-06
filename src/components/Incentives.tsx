@@ -1,17 +1,19 @@
 "use client"
-import React from 'react'
-import Certificate from '../../assets/cert.png'
-import Goodies from '../../assets/good.png'
-import Invitation from '../../assets/invite.png' 
-import Networking from '../../assets/network4.png'
+import React, { useContext } from 'react'
+import Certificate from '../assets/cert.png'
+import Goodies from '../assets/good.png'
+import Invitation from '../assets/invite.png' 
+import Networking from '../assets/network4.png'
 import Image from 'next/image'
+import { MyContext } from './Context.jsx';
 
 const Incentives = () => {
+  const {incentiveView} = useContext(MyContext);
   return (
     <>
     
     
-    <div className='flex justify-center'>
+    <div ref={incentiveView} className='flex justify-center'>
   
      <div className='text-5xl font-extrabold flex justify-center font-sans  bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent bg'>
         <div className='w-full text-center underline text-lightOrange underline-offset-8 ml-4'>INCENTIVES</div> 

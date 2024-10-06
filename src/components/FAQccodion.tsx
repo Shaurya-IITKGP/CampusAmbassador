@@ -1,6 +1,7 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { FaArrowCircleDown } from "react-icons/fa";
+import { MyContext } from './Context.jsx';
 
 const FAQAccordion: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -9,8 +10,10 @@ const FAQAccordion: React.FC = () => {
     setOpenIndex(openIndex === index ? null : index); 
   }
 
+  const {FAQView} = useContext(MyContext);
+
   return (
-    <div className='grid justify-center text-white h-screen'>
+    <div ref={FAQView} className='grid justify-center text-white h-screen'>
       <div className='text-5xl font-extrabold flex justify-center font-sans bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text'>
         <div className='w-2/3 text underline text-lightOrange underline-offset-8 ml-4'> FAQ </div> 
         <div className=' mt-32'>
