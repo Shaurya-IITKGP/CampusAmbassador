@@ -17,6 +17,7 @@ const Navbar = () => {
   };
 
   return (
+    <>
     <div className=' flex justify-between lg:justify-evenly mt-8 select-none '>
       <div id='logo' className='w-3/12 lg:w-1/12 flex justify-center'>
         <Image width={100} height={100} src="/Shaurya Logo with iit kgp 1.png" alt="" />
@@ -68,9 +69,13 @@ const Navbar = () => {
  
      
       </div>
+
+     
        
      
     </div>
+     <div className=" border border-lightOrange border-b mt-4 opacity-50 lg:hidden"/>
+     </>
   )
 }
 

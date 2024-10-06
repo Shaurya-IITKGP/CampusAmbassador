@@ -5,16 +5,16 @@ import { MyContext } from './Context.jsx';
 
 const NewHome = () => {
 
-  const {homeView , aboutView , whyCAView , responsibilityView , incentiveView , FAQView , contactView ,scrollToSection} = useContext(MyContext);
+  const {homeView } = useContext(MyContext);
   return (
     <div ref={homeView} className='h-screen'>
       <div className=' flex w-full'>
     
         {/* Main Heading */}
-        <div className=' w-1/2' >
-          <div className="text-white font-extrabold flex font-sans justify-end select-none items-center md:text-8xl sm:text-5xl text-4xl">
+        <div className=' w-full lg:w-1/2' >
+          <div className="text-white font-extrabold flex font-sans justify-center lg:justify-end select-none items-center lg:text-7xl sm:text-5xl text-5xl">
             <div className="mt-24 animate-slide-down ">
-              <div className="text-center mt-20">
+              <div className=" text-center mt-20">
                 <span className="bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent animate-gradient-move bg-size-200">
                   CA
                 </span>
@@ -35,24 +35,31 @@ const NewHome = () => {
           </div>
 
           {/* Subheading */}
-          <div className="text-white text-2xl flex ml-24 justify-center mt-3">
+          <div className="text-white text-xl lg:text-2xl flex  lg:ml-24 justify-center mt-3">
             <div className=" font-sans font-semibold animate-slide-in-right">
               <p className="font-bold">UNLEASH THE SHAURYA</p>
             </div>
           </div>
 
+          <div className='lg:hidden text-white p-2 mt-12  flex justify-center'>
+          <div className=' w-3/5 sm:4/5  font-sans font-bold italic'>
+          Shaurya IIT Kharagpur presents you the chance to become a <span className=' font-extrabold text-lightOrange'>CAMPUS</span> <span className=' font-extrabold text-lightOrange'>AMBASSADOR</span> and take your skills to next level
+          </div>
+          </div>
+
           {/* CTA Button */}
-          <div id="Become a Campus Ambassador" className="text-white mt-10 flex text-center  ml-12 justify-center w-full animate-slideUp">
-            <button className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 w-96 justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
+          <div id="Become a Campus Ambassador" className="text-white mt-10 flex text-center  lg:ml-12 justify-center w-full animate-slideUp">
+            <button className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96 justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
               <div>Apply to become Shaurya CA</div>
               <div className="mt-1">
                 <FaArrowRight />
               </div>
             </button>
           </div>
+         
         </div>
         <div 
-        className="z-20 w-1/2 bg-opacity-55 h-screen hidden md:block bg-cover bg-center  "
+        className="z-20 w-1/2 bg-opacity-55 h-screen hidden lg:block bg-cover bg-center  "
         style={{ backgroundImage: 'url("Shaurya_Football.png")' }} // Replace with your image path
       >
       </div>
@@ -101,6 +108,9 @@ const NewHome = () => {
     }
   }
 `}</style>
+
+<div className=" border border-lightOrange border-b opacity-50 md:hidden mt-32"/>
+
     </div>
   );
 };
