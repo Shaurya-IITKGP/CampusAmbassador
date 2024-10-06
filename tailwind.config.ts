@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import { transform } from "./node_modules/next/dist/build/swc/index.d.ts";
 
 const config: Config = {
   content: [
