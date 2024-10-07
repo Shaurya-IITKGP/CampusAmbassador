@@ -10,33 +10,37 @@ const FAQAccordion: React.FC = () => {
   }
 
   return (
-    <div className='grid justify-center text-white h-screen'>
-      <div className='text-5xl font-extrabold flex justify-center font-sans bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text'>
-        <div className='w-2/3 text underline text-lightOrange underline-offset-8 ml-4'> FAQ </div> 
-        <div className=''>
-          {faqData.map((data, index) => {
-            const isOpen = openIndex === index; 
-            return (
-              <div key={index} className='bg-slate-900 min-h-[50px] w-3/4 rounded-xl relative shadow-md hover:shadow-yellow-600 shadow-white m-6 top-[15px] right-[30px]'>
-                <label className='flex justify-center hover:text-yellow-500 hover:cursor-pointer text-lg mt-2 pt-2'>
-                  <input 
-                    type="checkbox" 
-                    className='flex h-4 mx-20 justify-center absolute peer opacity-0'
-                    onClick={() => toggleFAQ(index)} 
-                  />
-                  {data.question}
-                  <div className={`absolute top-[15px] right-[30px] transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
-                    <FaArrowCircleDown/>
-                  </div>
-                </label>
+    <div className=' sm:h-screen'>
+    <div className='grid justify-center '>
+  
+    <div className='text-5xl pl-8 sm:pl-28 font-extrabold flex flex-col items-center font-sans bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent'>
+  <div className='sm:w-full text underline text-lightOrange underline-offset-8 mb-4'>WHY CA?</div> 
+  </div>
+  <div className="flex justify-center items-center flex-col">
+  {faqData.map((data, index) => {
+    const isOpen = openIndex === index;
+    return (
+      <div key={index} className='bg-slate-900 min-h-[50px] w-3/4 rounded-xl relative shadow-md hover:shadow-yellow-600 shadow-white m-6'>
+        <label className='flex justify-between items-center text-white hover:text-yellow-500 hover:cursor-pointer sm:text-lg mt-2 pt-2 px-4'>
+          <input 
+            type="checkbox" 
+            className='peer hidden'
+            onClick={() => toggleFAQ(index)} 
+          />
+          {data.question}
+          <div className={`transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
+            <FaArrowCircleDown />
+          </div>
+        </label>
 
-                <div className={`overflow-hidden font-sans pt-4 text-lg px-4 pb-1 flex justify-center transition-all duration-300 ${isOpen ? 'max-h-full' : 'max-h-0'}`}>
-                  <p>{data.answer}</p>
-                </div>
-              </div>
-            );
-          })}
+        <div className={`overflow-hidden font-sans pt-4 sm:text-lg text-white px-4 pb-1 flex justify-center transition-all duration-300 ${isOpen ? 'max-h-full' : 'max-h-0'}`}>
+          <p>{data.answer}</p>
         </div>
+      </div>
+    );
+  })}
+</div>
+
       </div>
     </div>
   );
