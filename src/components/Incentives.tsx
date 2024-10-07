@@ -3,6 +3,7 @@ import React from 'react'
 import Certificate from "../assets/cert.png"
 import Goodies from '../assets/good.png'
 import Invitation from '../assets/invite.png' 
+import Image from 'next/image'
 import Networking from '../assets/network4.png'
 
 const Incentives = () => {
@@ -25,7 +26,7 @@ const Incentives = () => {
           {/* Certificate Section */}
           <div className=' flex md:mb-4  md:w-11/12 md:mr-8 '>
             <div className='  justify-center duration-300 hover:cursor-pointer hover:scale-105'>
-              <Image src={Certificate.src} alt="none" className='md:h-[120px] p-2 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+              <Image width={120} height={120}  src={Certificate.src} alt="none" className='md:h-[120px] p-2 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
             </div>
             <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-2xl  hover:shadow-orange-500 shadow-white p-2 text-sm sm:text-md font-sans grid items-center h-[120px] text-center md:w-11/12 opacity-85 '>
               Certificate of Acknowledgment, duly signed by the Chairman of Shaurya IIT Kharagpur and the President of Gymkhana IIT Kharagpur.
@@ -38,7 +39,7 @@ const Incentives = () => {
           {/* Invitation Section */}
           <div className='flex  mb-4 mt-10 md:mt-28 md:w-11/12 md:ml-8 gap-4'>
           <div className=' ml-4 justify-center w-[250px]  duration-300 hover:cursor-pointer hover:scale-105'>
-          <Image src={Invitation.src} alt="none" className='md:h-[120px] h-[100px] pt-3 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+          <Image width={120} height={120} src={Invitation.src} alt="none" className='md:h-[120px] h-[100px] pt-3 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
 
             </div>
             <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-2xl  hover:shadow-orange-500 shadow-white p-2 text-sm sm:text-md font-sans grid items-center h-[120px] text-center md:w-11/12 opacity-85  '>
@@ -51,7 +52,7 @@ const Incentives = () => {
           {/* goodies Section */}
           <div className=' flex mt-10 ml-2 md:ml-0 md:mb-4  md:w-11/12 md:mr-8 '>
             <div className='  justify-center w-[250px] duration-300 hover:cursor-pointer hover:scale-105'>
-              <Image src={Goodies.src} alt="none" className='md:h-[120px] pb-4 h-[120px] p-2 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+              <Image width={120} height={120} src={Goodies.src} alt="none" className='md:h-[120px] pb-4 h-[120px] p-2 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
             </div>
             <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-2xl  hover:shadow-orange-500 shadow-white p-2 text-sm sm:text-md font-sans grid items-center h-[120px] text-center md:w-11/12 opacity-85 '>
             Premium gift assortments and curated hampers presented upon the fest&apos;s conclusion.
@@ -65,7 +66,7 @@ const Incentives = () => {
             {/* Invitation Section */}
             <div className='flex  mb-4 mt-10 md:mt-28 md:w-11/12 md:ml-8 gap-4'>
             <div className=' ml-4 justify-center w-[250px]  duration-300 hover:cursor-pointer hover:scale-105'>
-            <Image src={Networking.src} alt="none" className='md:h-[120px] h-[100px] pt-3 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
+            <Image width={120} height={120} src={Networking.src} alt="none" className='md:h-[120px] h-[100px] pt-3 mr-3 md:grid items-center duration-500 xn:hover:drop-shadow-[0_0_15px_rgba(256,0,0,0.85)] '/>
 
               </div>
               <div className='ml-1 font-bold bg-slate-800 bg-opacity-75 rounded-md shadow-2xl  hover:shadow-orange-500 shadow-white p-2 text-sm sm:text-md font-sans grid items-center h-[120px] text-center md:w-11/12 opacity-85  '>

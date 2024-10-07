@@ -1,5 +1,5 @@
 import React from 'react'
-import {Image} from 'next/image'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
 
         {/* Left Section with Logo and Description */}
         <div className="lg:w-[45%] w-full flex flex-col items-center  lg:items-center">
-          <Image className="w-[150px] lg:w-[200px] " src="Shaurya_Logo.png" alt="Shaurya Logo" />
+          <Image width={200} height={200} className="w-[150px] lg:w-[200px] " src="Shaurya_Logo.png" alt="Shaurya Logo" />
           <p className="text-[15px] mt-4 lg:mt-0 text-white font-bold font-nunito text-center lg:text-left w-[90%]">
             <span className=" text-lightOrange">Shaurya </span>is the annual inter-collegiate sports fest of <span className=' text-lightOrange'>IIT Kharagpur</span>, which is held over a span of three days, typically in October. It was started in 2008 to promote sports culture and provide a national platform for athletes. <span className=" text-lightOrange">Shaurya </span> witnessed four editions, in 2008, 2009, 2010, and 2012.
           </p>
@@ -23,16 +23,16 @@ const Footer = () => {
             <p className="text-center text-[25px] text-white font-nunito">Follow Us</p>
             <div className="flex justify-center gap-7 mt-4">
               <a href="https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/">
-                <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook" />
+                <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook" />
               </a>
               <a href="https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA==">
-                <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram" />
+                <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram" />
               </a>
               <a href="https://youtube.com/@shauryaiitkharagpur?si=k3lk4kX4b3kLvZpG">
-                <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="youtube1.png" alt="YouTube" />
+                <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="youtube1.png" alt="YouTube" />
               </a>
               <a href="https://www.linkedin.com/company/shaurya-iit-kharagpur/">
-                <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn" />
+                <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn" />
               </a>
             </div>
           </div>
@@ -48,21 +48,21 @@ const Footer = () => {
             {/* Contact 1 */}
             <div className="w-full lg:w-1/2 flex flex-col items-center">
               <div className="w-[234px] h-[234px] bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 hover:animate-pulse rounded-[20px] mx-auto">
-                <Image className="w-full h-full bg-black rounded-[20px]" src="Tuhsin.jpg" alt="Tuhsin Suhana Rahman" />
+                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px]" src="Tuhsin.jpg" alt="Tuhsin Suhana Rahman" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Tuhsin Suhana Rahman</p>
               <div className="flex justify-center gap-7 mt-3">
                 <a href="https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook1" />
+                  <Image  width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook1" />
                 </a>
                 <a href="https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA==">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram1" />
+                  <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram1" />
                 </a>
                 <a href="mailto:tuhsinsrahman.shaurya.iitkgp@gmail.com">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="mail.png" alt="Mail1" />
+                  <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="mail.png" alt="Mail1" />
                 </a>
                 <a href="https://www.linkedin.com/company/shaurya-iit-kharagpur/">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn1" />
+                  <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn1" />
                 </a>
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Contact: 6002515029</p>
@@ -74,21 +74,21 @@ const Footer = () => {
             {/* Contact 2 */}
             <div className="w-full lg:w-1/2 flex flex-col items-center">
               <div className="w-[234px] h-[234px] bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 hover:animate-pulse rounded-[20px] mx-auto">
-                <Image className="w-full h-full bg-black rounded-[20px]" src="Hemant.jpg" alt="Hemant Kamble" />
+                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px]" src="Hemant.jpg" alt="Hemant Kamble" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Hemant Kamble</p>
               <div className="flex justify-center gap-7 mt-3">
                 <a href="https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook2" />
+                  <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook2" />
                 </a>
                 <a href="https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA==">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram2" />
+                  <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram2" />
                 </a>
                 <a href="mailto:hemant.kamble@shauryaiitkgp.in">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="mail.png" alt="Mail2" />
+                  <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="mail.png" alt="Mail2" />
                 </a>
                 <a href="https://www.linkedin.com/company/shaurya-iit-kharagpur/">
-                  <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn2" />
+                  <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn2" />
                 </a>
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Contact: 9872456857</p>
@@ -101,17 +101,17 @@ const Footer = () => {
           <p className="text-center text-[25px] text-white">Follow Us</p>
           <div className="flex justify-center gap-7 mt-4">
             <a href="https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/">
-              <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook4" />
+              <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook4" />
             </a>
             <a href="https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA==">
-              <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram4" />
+              <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram4" />
             </a>
             <a href="https://youtube.com/@shauryaiitkharagpur?si=k3lk4kX4b3kLvZpG">
-              <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="youtube1.png" alt="YouTube4" />
+              <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="youtube1.png" alt="YouTube4" />
             </a>
             <a href="https://www.linkedin.com/company/shaurya-iit-kharagpur/">
              
-            <Image className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn4" />
+            <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn4" />
             </a>
           </div>
         </div>
