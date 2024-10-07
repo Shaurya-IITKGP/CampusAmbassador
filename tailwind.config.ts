@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        nunito: ['Dancing-script', 'cursive'],
+      },
       keyframes: {
         growBorder: {
           '0%': { height: '0' },
