@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily:{
-        nunito: ['Dancing-script', 'cursive'],
+        nunito: ['Poppins', 'sans-serif'],
       },
       keyframes: {
         growBorder: {

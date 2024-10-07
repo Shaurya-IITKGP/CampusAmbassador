@@ -1,6 +1,8 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { FaArrowCircleDown } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
+import { MyContext } from './Context.jsx';
 
 const FAQAccordion: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -9,14 +11,15 @@ const FAQAccordion: React.FC = () => {
     setOpenIndex(openIndex === index ? null : index); 
   }
 
+  const {FAQView} = useContext(MyContext);
   return (
-    <div className=' sm:h-screen select:none'>
+    <div ref={FAQView} className=' sm:h-screen select:none  font-nunito'>
     <div className='grid justify-center '>
   
     <div className='text-5xl pl-8 sm:pl-28 font-extrabold flex flex-col items-center font-sans bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent'>
   <div className='sm:w-full text underline text-lightOrange underline-offset-8 mb-4'>FAQ</div> 
   </div>
-  <div className="flex justify-center items-center flex-col">
+  <div className="flex justify-center items-center flex-col mt-20">
   {faqData.map((data, index) => {
     const isOpen = openIndex === index;
     return (
@@ -29,7 +32,7 @@ const FAQAccordion: React.FC = () => {
           />
           {data.question}
           <div className={`transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
-            <FaArrowCircleDown />
+          <IoIosArrowDown />
           </div>
         </label>
 

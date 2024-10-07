@@ -1,11 +1,15 @@
-import React from 'react'
+"use client"
+import React, { useContext } from 'react'
+
 import Image from 'next/image'
+import {MyContext} from '../components/Context.jsx'
 
 const Footer = () => {
+  const {contactView} = useContext(MyContext);
   return (
     <>
     
-<div className=" border border-darkOrange border-b opacity-50 font-mono"/>
+<div ref={contactView} className=" border border-darkOrange border-b opacity-50 font-mono"/>
 <div className="bg-gradient-to-b from-gray-700 via-gray-800 to-black">
 
 
