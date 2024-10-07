@@ -1,6 +1,5 @@
 "use client"
 import React, { useContext, useState } from 'react';
-import { FaArrowCircleDown } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { MyContext } from './Context.jsx';
 
@@ -13,39 +12,54 @@ const FAQAccordion: React.FC = () => {
 
   const {FAQView} = useContext(MyContext);
   return (
-    <div ref={FAQView} className=' sm:h-screen select:none  font-nunito'>
+    <>
+    <div  className=" border border-darkOrange border-b opacity-50"/>
+
+    <div ref={FAQView} className=' sm:h-screen select:none mt-8'>
+
+
+      
     <div className='grid justify-center '>
   
     <div className='text-5xl pl-8 sm:pl-28 font-extrabold flex flex-col items-center font-sans bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent'>
   <div className='sm:w-full text underline text-lightOrange underline-offset-8 mb-4'>FAQ</div> 
   </div>
-  <div className="flex justify-center items-center flex-col mt-20">
+  <div className="flex justify-center items-center flex-col md:mt-12">
+ 
+
   {faqData.map((data, index) => {
+    
     const isOpen = openIndex === index;
     return (
-      <div key={index} className='bg-slate-900 min-h-[50px] w-3/4 rounded-xl relative shadow-md hover:shadow-yellow-600 shadow-white m-6'>
-        <label className='flex justify-between items-center text-white hover:text-yellow-500 hover:cursor-pointer sm:text-lg mt-2 pt-2 px-4'>
+      <div key={index} className=' bg-gradient-to-b from-zinc-700 via-black to-zinc-900 min-h-[50px] w-3/4 rounded-xl relative shadow-md hover:shadow-yellow-600 shadow-white m-6 p-2'>
+      <label className='flex justify-between items-center text-white font-nunito font-bold hover:text-yellow-500 hover:cursor-pointer sm:text-lg mt-2 pt-2 px-4'>
           <input 
-            type="checkbox" 
-            className='peer hidden'
-            onClick={() => toggleFAQ(index)} 
+              type="checkbox" 
+              className='peer hidden'
+              onClick={() => toggleFAQ(index)} 
           />
           {data.question}
           <div className={`transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
-          <IoIosArrowDown />
+              <IoIosArrowDown />
           </div>
-        </label>
-
-        <div className={`overflow-hidden font-sans pt-4 sm:text-lg text-white px-4 pb-1 flex justify-center transition-all duration-300 ${isOpen ? 'max-h-full' : 'max-h-0'}`}>
-          <p>{data.answer}</p>
-        </div>
+      </label>
+  
+      <div className={`overflow-hidden font-nunito pt-4 sm:text-lg text-white px-4 pb-1 flex flex-col transition-all duration-300 ${isOpen ? 'max-h-full' : 'max-h-0'}`}>
+          {/* Horizontal Line */}
+          <div className="border-t border-lightOrange my-2"></div>
+          
+          <p className='mt-2 font-light'>{data.answer}</p>
       </div>
+  </div>
+  
+  
     );
   })}
 </div>
 
       </div>
     </div>
+    </>
   );
 };
 
