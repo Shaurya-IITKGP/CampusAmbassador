@@ -38,6 +38,8 @@ const Responsibilities = () => {
 
     return (
       <div ref={responsibilityView} className='h-screen w-full'>
+    <div  className=" border border-darkOrange border-b opacity-50 mt-24 sm:mt-0"  />
+
           <div>
               <div className='text-2xl sm:text-3xl md:text-4xl underline text-lightOrange underline-offset-8 ml-4 font-extrabold font-sans'>
                   RESPONSIBILITIES
