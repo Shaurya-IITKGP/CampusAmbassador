@@ -56,16 +56,16 @@ const Footer = () => {
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Tuhsin Suhana Rahman</p>
               <div className="flex justify-center gap-7 mt-3">
-                <a href="https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/">
+                <a href="https://www.facebook.com/profile.php?id=100086747262244">
                   <Image  width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook1" />
                 </a>
-                <a href="https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA==">
+                <a href="https://www.instagram.com/tuhsin13?igsh=MWF0MXptbnBjaXQ2Nw==">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram1" />
                 </a>
                 <a href="mailto:tuhsinsrahman.shaurya.iitkgp@gmail.com">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="mail.png" alt="Mail1" />
                 </a>
-                <a href="https://www.linkedin.com/company/shaurya-iit-kharagpur/">
+                <a href="https://www.linkedin.com/in/tuhsin-suhana-rahman-5573a8251/">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn1" />
                 </a>
               </div>
@@ -82,16 +82,16 @@ const Footer = () => {
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Hemant Kamble</p>
               <div className="flex justify-center gap-7 mt-3">
-                <a href="https://www.facebook.com/share/HFLKcLA25psDVxjR/?mibextid=qi2Omg/">
+                <a href="https://www.facebook.com/hemant.kamble.9803150?mibextid=kFxxJD">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook2" />
                 </a>
-                <a href="https://www.instagram.com/shaurya.iitkgp?igsh=MW1wcGRqNHoyNWgzcA==">
+                <a href="https://www.instagram.com/__h_e_m_a_n_t__k__/profilecard/?igsh=cWU4Z3Qzb25oNDZt">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="instagram.png" alt="Instagram2" />
                 </a>
                 <a href="mailto:hemant.kamble@shauryaiitkgp.in">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="mail.png" alt="Mail2" />
                 </a>
-                <a href="https://www.linkedin.com/company/shaurya-iit-kharagpur/">
+                <a href="https://www.linkedin.com/in/hemant-kamble-7b5378229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn2" />
                 </a>
               </div>
