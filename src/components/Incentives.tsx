@@ -18,7 +18,7 @@ const Incentives = () => {
     <div ref={incentiveView} className='grid lg:flex justify-center mt-8 mb-20 select-none'>
   
      <div className='text-4xl lg:text-5xl font-extrabold flex flex-col lg:flex-row  lg:justify-center font-sans  bg-gradient-to-r from-lightOrange via-orange-400 to-darkOrange bg-clip-text text-transparent bg'>
-        <div className='sm:w-full text-center underline text-lightOrange underline-offset-8 lg:mb-4 ml-4'>INCENTIVES</div> 
+        <div className='sm:w-full text-center underline text-lightOrange underline-offset-8 lg:mb-4 md:-ml-44 lg:ml-28'>INCENTIVES</div> 
         </div>
 
       <div className=' flex justify-center lg:h-screen '>
