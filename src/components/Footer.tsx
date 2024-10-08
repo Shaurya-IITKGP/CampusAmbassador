@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
     
-<div ref={contactView} className=" border border-darkOrange border-b opacity-50 font-mono"/>
+<div ref={contactView} className=" border border-darkOrange border-b opacity-50 font-mono mt-20 lg:mt-0"/>
 <div className="bg-gradient-to-b from-gray-700 via-gray-800 to-black">
 
 

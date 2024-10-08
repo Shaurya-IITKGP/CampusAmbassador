@@ -15,7 +15,7 @@ const WhyCa = () => {
          
   <div className="sm:h-3/4 sm:w-3/4 mt-12 sm:my-32 sm:mr-32 relative z-10 flex cursor-pointer items-center overflow-hidden rounded-xl border border-slate-900 p-[1.5px]">
     <div className="animate-rotate absolute inset-0 h-full rounded-full bg-[conic-gradient(#FBBF24_20deg,transparent_120deg)]"></div>
-    <div className="sm:h-full z-20 flex rounded-[0.60rem] bg-slate-950 p-2">
+    <div className="sm:h-full z-20 flex rounded-[0.60rem] bg-gradient-to-b from-zinc-700 via-zinc-800 to-black p-2">
       <span className="z-50 px-8 py-3 flex font-nunito items-center text-white transition duration-200 font-bold text-sm md:text-lg text-center" style={{ lineHeight: '2.0' }}>
         Be a part of Shaurya, the renowned sports fest at IIT Kharagpur, and elevate your love for sports. As a Campus Ambassador, you&apos;ll gain valuable experience in event promotion and management, all while building your communication and leadership skills. You&apos;ll have the chance to organize exciting sports competitions, connect with fellow athletes from across the country, and stay on top of the latest trends in the sports world. Join us and play a key role in making Shaurya a memorable and impactful event.
       </span>

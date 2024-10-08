@@ -15,7 +15,7 @@ const FAQAccordion: React.FC = () => {
     <>
     <div  className=" border border-darkOrange border-b opacity-50"/>
 
-    <div ref={FAQView} className='h-screen select:none mt-8'>
+    <div ref={FAQView} className='lg:h-screen select:none mt-8'>
 
 
       
