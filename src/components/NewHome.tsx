@@ -7,7 +7,7 @@ const NewHome = () => {
 
   const {homeView } = useContext(MyContext);
   return (
-    <div ref={homeView} className='h-screen'>
+    <div ref={homeView} className='lg:h-screen'>
       <div className=' flex w-full'>
     
         {/* Main Heading */}
@@ -35,17 +35,21 @@ const NewHome = () => {
           </div>
 
           {/* Subheading */}
-          <div className="text-white text-xl lg:text-2xl flex justify-end mt-3 w-full">
+          <div className="text-white text-xl lg:text-2xl flex justify-end -ml-8 sm:-ml-0 mt-3 w-full">
             <div className=" font-sans flex font-semibold animate-slide-in-right">
-              <p className="text-sm font-normal  ">UNLEASH THE SHAURYA</p>
+              <p className="text-sm font-normal bg-gradient-to-b from-zinc-400 via-zinc-500 to-zinc-600 bg-clip-text text-transparent animate-gradient   ">UNLEASH THE SHAURYA</p>
             </div>
           </div>
 
-          <div className='lg:hidden text-white p-2 mt-12  flex justify-center'>
-          <div className=' w-3/5 sm:4/5  font-sans font-bold italic'>
-          Shaurya IIT Kharagpur presents you the chance to become a <span className=' font-extrabold text-lightOrange'>CAMPUS</span> <span className=' font-extrabold text-lightOrange'>AMBASSADOR</span> and take your skills to next level
-          </div>
-          </div>
+          <div className='lg:hidden text-white p-2 mt-6 flex justify-center'>
+    <div className='w-full sm:w-4/5 text-center font-sans font-bold'>
+        Shaurya IIT Kharagpur presents you the chance to become a 
+        <span className='font-extrabold text-lightOrange'> CAMPUS </span>
+        <span className='font-extrabold text-lightOrange'> AMBASSADOR </span> 
+        and take your skills to the next level
+    </div>
+</div>
+
 
           {/* CTA Button */}
           <div id="Become a Campus Ambassador" className="text-white mt-10 mr-20 flex justify-center md:justify-around  w-full animate-slideUp">
@@ -60,7 +64,7 @@ const NewHome = () => {
          
         </div>
         <div 
-        className="z-20 w-1/2 bg-opacity-55 h-screen hidden lg:block bg-cover bg-center  "
+        className="z-20 md:w-full lg:w-1/2 bg-opacity-55 h-screen hidden lg:block bg-cover bg-center  "
         style={{ backgroundImage: 'url("Shaurya_Football.png")' }} // Replace with your image path
       >
       </div>

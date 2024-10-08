@@ -6,7 +6,7 @@ const About = () => {
   const {aboutView } = useContext(MyContext);
   return (
     <>
-    <div  className=" border border-darkOrange border-b opacity-50  mt-4"  />
+    <div  className=" border border-darkOrange border-b opacity-50  mt-28 sm:mt-4"  />
 
      <div ref={aboutView} className=' lg:h-screen'>
     <div className='grid justify-center  '>
