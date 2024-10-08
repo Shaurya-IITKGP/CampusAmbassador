@@ -6,7 +6,7 @@ const About = () => {
   const {aboutView } = useContext(MyContext);
   return (
     <>
-<div className=" border border-lightOrange border-b opacity-50 lg:hidden"/>
+<div className=" border border-lightOrange border-b opacity-50 mt-2"/>
     
     <div ref={aboutView} className='h-screen relative overflow-hidden mt-12'>
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden stars"></div>
