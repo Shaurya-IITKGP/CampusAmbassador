@@ -27,6 +27,7 @@ const Responsibilities = () => {
         }
     }
 
+
     const responsiblity = ["BRIDGE", "PUBLICITY", "COLLEGE"];
     const { responsibilityView } = useContext(MyContext);
 
@@ -37,32 +38,34 @@ const Responsibilities = () => {
     ];
 
     return (
-      <div ref={responsibilityView} className='h-screen w-full'>
+      <div ref={responsibilityView} className='lg:h-screen w-full'>
     <div  className=" border border-darkOrange border-b opacity-50 mt-24 sm:mt-0"  />
 
-          <div>
-              <div className='text-2xl sm:text-3xl md:text-4xl underline text-lightOrange underline-offset-8 ml-4 font-extrabold font-sans'>
+          <div className=' md:mt-20 mt-12 '>
+              <div className='text-4xl sm:text-3xl md:text-5xl underline lg:ml-28 md:text-left text-center text-lightOrange underline-offset-8 ml-4 font-extrabold font-sans'>
                   RESPONSIBILITIES
               </div>
           </div>
   
-          <div className='flex justify-center text-white mt-16 md:mt-32 space-x-6 sm:space-x-8 md:space-x-12'>
-              <div onClick={handleClickLeft} className='bg-slate-900 rounded-full p-3 sm:p-4 cursor-pointer hover:bg-white hover:text-black'>
-                  <FaArrowLeft className='w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8' />
+          <div className='flex justify-center text-white mt-16 md:mt-32 space-x-4 sm:space-x-8 md:space-x-12'>
+              <div onClick={handleClickLeft} className='bg-slate-900 rounded-full p-3 md:block hidden sm:p-4 cursor-pointer hover:bg-white hover:text-black'>
+                  <FaArrowLeft className='w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 ' />
               </div>
               {
                   responsiblity.map((item, index) => (
-                      <div 
+                      <div onClick={()=>{
+                        setSelect(index+1);
+                      }}
                           key={index} 
                           className={(select === index + 1) 
-                              ? 'text-xl sm:text-2xl md:text-3xl underline underline-offset-8 hover:cursor-pointer text-lightOrange font-bold mt-2' 
-                              : 'text-xl sm:text-2xl md:text-3xl font-bold mt-2'}>
+                              ? 'text-xl cursor-pointer sm:text-2xl md:text-3xl underline underline-offset-8 hover:cursor-pointer text-lightOrange font-bold mt-2' 
+                              : 'text-xl cursor-pointer sm:text-2xl md:text-3xl font-bold mt-2'}>
                           {item}
                       </div>
                   ))
               }
-              <div onClick={handleClickRight} className='bg-slate-900 rounded-full p-3 sm:p-4 cursor-pointer hover:bg-white hover:text-black'>
-                  <FaArrowRight className='w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8' />
+              <div onClick={handleClickRight} className='bg-slate-900 rounded-full md:block hidden p-3 sm:p-4 cursor-pointer hover:bg-white hover:text-black'>
+                  <FaArrowRight className='w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 ' />
               </div>
           </div>
   

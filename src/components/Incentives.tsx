@@ -13,7 +13,7 @@ const Incentives = () => {
   return (
     <>
     
-    <div  className=" border border-darkOrange border-b opacity-50"/>
+    <div  className=" border border-darkOrange border-b opacity-50 lg:mt-0 mt-28"/>
     
     <div ref={incentiveView} className='grid lg:flex justify-center mt-8 mb-20 select-none'>
   

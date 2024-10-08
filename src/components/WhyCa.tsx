@@ -3,9 +3,9 @@ import React, { useContext } from 'react'
 import { MyContext } from './Context.jsx';
 
 const WhyCa = () => {
-  const {whyCaView} = useContext(MyContext);
+  const {whyCAView} = useContext(MyContext);
   return (
-    <div ref={whyCaView} className=' sm:h-screen'>
+    <div ref={whyCAView} className=' sm:h-screen'>
     <div  className=" border border-darkOrange border-b opacity-50 mt-24 sm:mt-0"  />
 
     <div className='grid justify-center '>
