@@ -2,7 +2,6 @@
 import React, { useState , useContext } from 'react'
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
-import Link from 'next/link'
 import Image from 'next/image'
 import { MyContext } from './Context.jsx';
 import NavbarModal from './NavbarModal.tsx'
