@@ -41,14 +41,16 @@ const NewHome = () => {
             </div>
           </div>
 
-          <div className='lg:hidden text-white p-2 mt-6 flex justify-center'>
-    <div className='w-full sm:w-4/5 text-center font-sans font-bold'>
-        Shaurya IIT Kharagpur presents you the chance to become a 
-        <span className='font-extrabold text-lightOrange'> CAMPUS </span>
-        <span className='font-extrabold text-lightOrange'> AMBASSADOR </span> 
-        and take your skills to the next level
-    </div>
+          <div className="lg:hidden text-white p-2 mt-6 flex justify-center text-center">
+  <div className="font-sans font-bold text-center w-11/12 sm:w-4/5 text-center " 
+    style={{ lineHeight: '1.5', textAlign: 'justify', maxWidth: '800px' }}>
+    Shaurya IIT Kharagpur presents you the chance to become a 
+    <span className="font-extrabold text-lightOrange"> CAMPUS </span>
+    <span className="font-extrabold text-lightOrange"> AMBASSADOR </span> 
+    and take your skills to the next level.
+  </div>
 </div>
+
 
 
           {/* CTA Button */}
