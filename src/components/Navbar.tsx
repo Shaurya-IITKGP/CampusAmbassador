@@ -45,12 +45,12 @@ const Navbar = () => {
        
       </div> */}
 
-      <div className=' w-1/12 relative hidden lg:block'>
+    {/*  <div className=' w-1/12 relative hidden lg:block'>
            <label className=" h-[50px] rounded-full col-span-2 border-2 border-slate-700 bg-slate-700 bg-opacity-20 w-full cursor-pointer absolute flex items-center">
         <input type="checkbox" id="check" className="sr-only peer"/>
         <span className="w-1/2 h-[80%] rounded-full bg-gradient-to-b from-[rgba(255,200,0,0.81)] to-[rgba(255,136,0,0.68)] border border-[rgb(219,197,116)] absolute left-1 top-1 transition-all peer-checked:left-[48%]"></span>
       </label>
-      </div>
+      </div>*/}
 
      <div id='hamburger-for-mobile-responsive' className=' lg:hidden mr-2 sm:mr-4 md:mr-8 cursor-pointer'>
 
