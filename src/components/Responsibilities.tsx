@@ -41,7 +41,7 @@ const Responsibilities = () => {
       <div ref={responsibilityView} className='lg:h-screen w-full'>
     <div  className=" border border-darkOrange border-b opacity-50 mt-24 sm:mt-12"  />
 
-          <div className=' md:mt-12 '>
+          <div className=' mt-12 '>
               <div className='text-4xl sm:text-3xl md:text-5xl underline lg:ml-28 md:text-left text-center text-lightOrange underline-offset-8 ml-4 font-extrabold font-sans'>
                   RESPONSIBILITIES
               </div>
