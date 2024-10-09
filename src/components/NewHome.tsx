@@ -2,8 +2,15 @@
 import React, { useContext } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import { MyContext } from './Context.jsx';
+import { useRouter } from 'next/navigation';
 
 const NewHome = () => {
+
+  const router = useRouter();
+
+  const divert =(url:string)=>{
+    router.push(url);
+  }
 
   const {homeView } = useContext(MyContext);
   return (
@@ -56,7 +63,9 @@ const NewHome = () => {
           {/* CTA Button */}
           <div id="Become a Campus Ambassador" className="text-white mt-10 mr-20 flex justify-center md:justify-around  w-full animate-slideUp">
             <div className='text-black select-none md:block hidden'>hello</div>
-            <button className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96 justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
+            <button 
+            onClick={()=>divert("https://forms.gle/M66ieBT2s38aFV1g6")}
+            className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96 justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
               <div>Apply to become Shaurya CA</div>
               <div className="mt-1">
                 <FaArrowRight />
