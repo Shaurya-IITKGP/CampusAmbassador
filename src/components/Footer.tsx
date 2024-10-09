@@ -95,7 +95,7 @@ const Footer = () => {
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="linkedin1.png" alt="LinkedIn2" />
                 </a>
               </div>
-              <p className="text-white pt-3 text-center font-nunito font-semibold">Contact: 9872456857</p>
+              <p className="text-white pt-3 text-center font-nunito font-semibold">Contact: 9372838349</p>
             </div>
           </div>
         </div>
