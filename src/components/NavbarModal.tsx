@@ -8,10 +8,10 @@ import { MyContext } from './Context.jsx';
 
 const style = {
   position: 'absolute',
-  top: '10vh',
-  left: '10vw',
-  width: '80vw',   // Full width of the viewport
-  height: '80vh',  // Full height of the viewport
+  top: '0vh',
+  left: '30vw',
+  width: '70vw',   // Full width of the viewport
+  height: '100vh',  // Full height of the viewport
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
@@ -32,32 +32,25 @@ export default function BasicModal() {
   return (
     <div>
       <Modal
-      className=" h-full w-full"
+      className=" "
         open={isModalOpen}
         onClose={handleModalOpen}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style} className=' text-lightOrange shadow-xl shadow-lightOrange bg-slate-900 bg-opacity-95 rounded-2xl'>
-          <div className=" flex justify-between">
-          <Typography id="modal-modal-title" variant="h4" component="h2" className=" underline underline-offset-6">
-            Contents
-          </Typography>
-          <button onClick={handleClose} className="cursor-pointer font-extrabold ">
-          &times;
-          </button>
-          </div>
-          <div id='main-components' className=' cursor-pointer mt-12 flex flex-col h-full font-extrabold text-xl'>
+        <Box sx={style} className=' text-lightOrange shadow-xl shadow-lightOrange bg-gradient-to-b from-zinc-700 via-zinc-900 to-black border-l-2 border-darkOrange bg-opacity-95 animate-slide-in-right'>
+         
+          <div id='main-components' className=' cursor-pointer mt-12 flex flex-col h-full font-extrabold text-md'>
             <div className=' space-y-12'>
           <li>
-          <div onClick={()=>scrollToSection(homeView)}   className=''>HOME</div>
+          <div onClick={()=>scrollToSection(homeView)}   className=' bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>HOME</div>
           </li>
-       <li> <div onClick={()=>scrollToSection(aboutView)}  className='hover:text-lightOrange'>ABOUT US</div></li>
-        <li><div onClick={()=>scrollToSection(whyCAView)}  className='hover:text-lightOrange'>WHY CA</div></li>
-       <li><div onClick={()=>scrollToSection(responsibilityView)}   className='hover:text-lightOrange'>RESPONSIBILITIES</div></li> 
-       <li> <div onClick={()=>scrollToSection(incentiveView)}   className='hover:text-lightOrange'>INCENTIVES</div></li>
-       <li><div onClick={()=>scrollToSection(FAQView)} className='hover:text-lightOrange'>FAQs</div></li> 
-      <li> <div onClick={()=>scrollToSection(contactView)}   className='hover:text-lightOrange'>CONTACT US</div></li> 
+       <li> <div onClick={()=>scrollToSection(aboutView)}  className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>ABOUT US</div></li>
+        <li><div onClick={()=>scrollToSection(whyCAView)}  className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>WHY CA</div></li>
+       <li><div onClick={()=>scrollToSection(responsibilityView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>RESPONSIBILITIES</div></li> 
+       <li> <div onClick={()=>scrollToSection(incentiveView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>INCENTIVES</div></li>
+       <li><div onClick={()=>scrollToSection(FAQView)} className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>FAQs</div></li> 
+      <li> <div onClick={()=>scrollToSection(contactView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>CONTACT US</div></li> 
       </div>
           
         
