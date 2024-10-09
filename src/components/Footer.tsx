@@ -52,7 +52,7 @@ const Footer = () => {
             {/* Contact 1 */}
             <div className="w-full lg:w-1/2 flex flex-col items-center">
               <div className="w-[234px] h-[234px] bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 hover:animate-pulse rounded-[20px] mx-auto">
-                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px]" src="Tuhsin.jpg" alt="Tuhsin Suhana Rahman" />
+                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px] object-cover" src="Tuhsin.jpg" alt="Tuhsin Suhana Rahman" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Tuhsin Suhana Rahman</p>
               <div className="flex justify-center gap-7 mt-3">
@@ -78,7 +78,7 @@ const Footer = () => {
             {/* Contact 2 */}
             <div className="w-full lg:w-1/2 flex flex-col items-center">
               <div className="w-[234px] h-[234px] bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 hover:animate-pulse rounded-[20px] mx-auto">
-                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px]" src="Hemant.jpg" alt="Hemant Kamble" />
+                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px] object-cover object-[40%]" src="Hemant.jpg" alt="Hemant Kamble" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Hemant Kamble</p>
               <div className="flex justify-center gap-7 mt-3">
