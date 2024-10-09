@@ -1,34 +1,29 @@
+import dynamic from 'next/dynamic';
+import React from 'react';
 
-import Footer from '../components/Footer.tsx';
-import NewHome from '../components/NewHome.tsx'
-import React from 'react'
-import Incentives from '../components/Incentives.tsx';
-import About from '@/components/About.tsx';
-import WhyCa from '@/components/WhyCa.tsx';
-import Responsibilities from '../components/Responsibilities.tsx';
-import FAQAccordion from '@/components/FAQccodion.tsx';
+// Dynamically imported components
+const Footer = dynamic(() => import('../components/Footer.tsx'));
+const NewHome = dynamic(() => import('../components/NewHome.tsx'));
+const IncentivesOfCa = dynamic(() => import('../components/Incentives.tsx'));
+const About = dynamic(() => import('@/components/About.tsx'));
+const WhyCa = dynamic(() => import('@/components/WhyCa.tsx'));
+const ResponsibilitiesOfCa = dynamic(() => import('../components/Responsibilities.tsx'));
+const FAQAccordion = dynamic(() => import('@/components/FAQccodion.tsx'));
 
 export default function Home() {
   return (
     <div>
-
-    <div>
-      <NewHome/>
-      <About/>
-      <WhyCa/>
-      <Responsibilities/>
-      <div >
-      <Incentives/>
+      <div>
+        <NewHome /> {/* Dynamically loaded */}
+        <About /> {/* Dynamically loaded */}
+        <WhyCa /> {/* Dynamically loaded */}
+        <ResponsibilitiesOfCa /> {/* Dynamically loaded */}
+        <div>
+          <IncentivesOfCa /> {/* Dynamically loaded */}
+        </div>
+        <FAQAccordion /> {/* Dynamically loaded */}
+        <Footer /> {/* Dynamically loaded */}
       </div>
-     
-     <FAQAccordion/>
-     
-      <Footer/>
-    </div> 
-   
     </div>
-  
-  
   );
 }
-
