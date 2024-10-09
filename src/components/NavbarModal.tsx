@@ -41,16 +41,37 @@ export default function BasicModal() {
         <Box sx={style} className=' text-lightOrange shadow-xl shadow-lightOrange bg-gradient-to-b from-zinc-700 via-zinc-900 to-black border-l-2 border-darkOrange bg-opacity-95 animate-slide-in-right'>
          
           <div id='main-components' className=' cursor-pointer mt-12 flex flex-col h-full font-extrabold text-md'>
-            <div className=' space-y-12'>
-          <li>
+            <div className=' space-y-6'>
+          <ul>
           <div onClick={()=>scrollToSection(homeView)}   className=' bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>HOME</div>
-          </li>
-       <li> <div onClick={()=>scrollToSection(aboutView)}  className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>ABOUT US</div></li>
-        <li><div onClick={()=>scrollToSection(whyCAView)}  className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>WHY CA</div></li>
-       <li><div onClick={()=>scrollToSection(responsibilityView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>RESPONSIBILITIES</div></li> 
-       <li> <div onClick={()=>scrollToSection(incentiveView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>INCENTIVES</div></li>
-       <li><div onClick={()=>scrollToSection(FAQView)} className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>FAQs</div></li> 
-      <li> <div onClick={()=>scrollToSection(contactView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>CONTACT US</div></li> 
+    <div  className=" border border-darkOrange border-b opacity-50 mt-2"  />
+
+          </ul>
+       <ul> <div onClick={()=>scrollToSection(aboutView)}  className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>ABOUT US</div>
+    <div  className=" border border-darkOrange border-b opacity-50 mt-2"  />
+
+       </ul>
+        <ul><div onClick={()=>scrollToSection(whyCAView)}  className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>WHY CA</div>
+    <div  className=" border border-darkOrange border-b opacity-50 mt-2"  />
+
+        </ul>
+
+       <ul><div onClick={()=>scrollToSection(responsibilityView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>RESPONSIBILITIES</div>
+    <div  className=" border border-darkOrange border-b opacity-50 mt-2"  />
+
+       </ul> 
+       <ul> <div onClick={()=>scrollToSection(incentiveView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>INCENTIVES</div>
+    <div  className=" border border-darkOrange border-b opacity-50 mt-2"  />
+
+       </ul>
+       <ul><div onClick={()=>scrollToSection(FAQView)} className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>FAQs</div>
+    <div  className=" border border-darkOrange border-b opacity-50 mt-2"  />
+
+       </ul> 
+      <ul> <div onClick={()=>scrollToSection(contactView)}   className='bg-gradient-to-b from-lightOrange via-orange-500 to-darkOrange bg-clip-text text-transparent'>CONTACT US</div>
+    <div  className=" border border-darkOrange border-b opacity-50 mt-2"  />
+
+      </ul> 
       </div>
           
         
