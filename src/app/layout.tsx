@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://ca.shauryaiitkgp.in',
     title: "Shaurya Campus Ambassador",
     description: "Join Shaurya and take your career to the next level.",
-  canonical: 'https://ca.shauryaiitkgp.in/shaurya-campus-ambassador',
+
   icons: {
     icon: '/favicon.ico',
   },
