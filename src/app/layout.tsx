@@ -11,7 +11,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shaurya Campus Ambassador",
-  description: "Join Shaurya and take your career to next level",
+  description: "Join Shaurya and take your career to the next level.",
+  keywords: "Shaurya, Campus Ambassador, Career Growth, Leadership, Student Programs , IIT Kharagpur , IIT KGP , IIT kgp",
+  author: "Shaurya Sports Fest",
+  openGraph: {
+    type: 'website',
+    url: 'https://ca.shauryaiitkgp.in',
+    title: "Shaurya Campus Ambassador",
+    description: "Join Shaurya and take your career to the next level.",
+  canonical: 'https://ca.shauryaiitkgp.in/shaurya-campus-ambassador',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
