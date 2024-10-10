@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Shaurya Campus Ambassador",
   description: "Join Shaurya and take your career to the next level.",
   keywords: "Shaurya, Campus Ambassador, Career Growth, Leadership, Student Programs , IIT Kharagpur , IIT KGP , IIT kgp",
-  author: "Shaurya Sports Fest",
+  authors: "Shaurya Sports Fest",
   openGraph: {
     type: 'website',
     url: 'https://ca.shauryaiitkgp.in',
