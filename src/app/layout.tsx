@@ -18,11 +18,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://ca.shauryaiitkgp.in',
     title: "Shaurya Campus Ambassador",
-    description: "Join Shaurya and take your career to the next level.",
-
-  icons: {
-    icon: '/favicon.ico',
-  },
+    description: "Join Shaurya and take your career to the next level."
 },
 }
 
