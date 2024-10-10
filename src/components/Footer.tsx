@@ -55,6 +55,7 @@ const Footer = () => {
                 <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px] object-cover" src="Tuhsin.jpg" alt="Tuhsin Suhana Rahman" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Tuhsin Suhana Rahman</p>
+              <p className="text-white pt-1 text-center font-nunito font-semibold">Publicity and Marketing Head</p>
               <div className="flex justify-center gap-7 mt-3">
                 <a href="https://www.facebook.com/profile.php?id=100086747262244">
                   <Image  width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook1" />
@@ -81,6 +82,7 @@ const Footer = () => {
                 <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px] object-cover object-[40%]" src="Hemant.jpg" alt="Hemant Kamble" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Hemant Kamble</p>
+              <p className="text-white pt-1 text-center font-nunito font-semibold">Publicity and Marketing Head</p>
               <div className="flex justify-center gap-7 mt-3">
                 <a href="https://www.facebook.com/hemant.kamble.9803150?mibextid=kFxxJD">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook2" />
