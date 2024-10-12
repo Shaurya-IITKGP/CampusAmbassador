@@ -51,9 +51,9 @@ const NewHome = () => {
           <div className="lg:hidden text-white p-2 mt-6 flex justify-center text-center">
   <div className="font-sans font-bold w-11/12 sm:w-4/5 text-center " 
     style={{ lineHeight: '1.5', textAlign: 'justify', maxWidth: '800px' }}>
-    Shaurya IIT Kharagpur presents you the chance to become a 
-    <span className="font-extrabold text-lightOrange"> CAMPUS </span>
-    <span className="font-extrabold text-lightOrange"> AMBASSADOR </span> 
+    Shaurya IIT Kharagpur proudly presents you the exciting chance to become a 
+    <span className=" font-extrabold text-lightOrange"> CAMPUS </span>
+    <span className=" font-extrabold text-lightOrange"> AMBASSADOR </span> 
     and take your skills to the next level.
   </div>
 </div>
