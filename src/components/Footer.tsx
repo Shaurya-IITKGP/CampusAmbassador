@@ -19,7 +19,10 @@ const Footer = () => {
         <div className="lg:w-[45%] w-full flex flex-col items-center  lg:items-center">
           <Image width={200} height={200} className="w-[150px] lg:w-[200px] " src="Shaurya_Logo.png" alt="Shaurya Logo" />
           <p className="text-[15px] mt-4 lg:mt-0 text-white font-bold font-nunito text-center lg:text-left w-[90%]">
-            <span className=" text-lightOrange">Shaurya </span>is the annual inter-collegiate sports fest of <span className=' text-lightOrange'>IIT Kharagpur</span>, which is held over a span of three days. It was started in 2008 to promote sports culture and provide a national platform for athletes. <span className=" text-lightOrange">Shaurya </span> witnessed various editions in 2008, 2009, 2010, 2012 and 2023.
+            <span className=" text-lightOrange">Shaurya </span>is not just a sports fest; 
+            its a vibrant celebration of athleticism and camaraderie,
+             where the spirit of competition ignites passion and unity among colleges nationwide.
+              Join us to witness the thrill of sports as we elevate the game together!
           </p>
 
           {/* Follow Us - Shown only on large screens */}
