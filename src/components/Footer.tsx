@@ -52,9 +52,10 @@ const Footer = () => {
             {/* Contact 1 */}
             <div className="w-full lg:w-1/2 flex flex-col items-center">
               <div className="w-[234px] h-[234px] bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 hover:animate-pulse rounded-[20px] mx-auto">
-                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px]" src="Tuhsin.jpg" alt="Tuhsin Suhana Rahman" />
+                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px] object-cover" src="Tuhsin.jpg" alt="Tuhsin Suhana Rahman" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Tuhsin Suhana Rahman</p>
+              <p className="text-white pt-1 text-center font-nunito font-semibold">Publicity and Marketing Head</p>
               <div className="flex justify-center gap-7 mt-3">
                 <a href="https://www.facebook.com/profile.php?id=100086747262244">
                   <Image  width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook1" />
@@ -78,9 +79,10 @@ const Footer = () => {
             {/* Contact 2 */}
             <div className="w-full lg:w-1/2 flex flex-col items-center">
               <div className="w-[234px] h-[234px] bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 hover:animate-pulse rounded-[20px] mx-auto">
-                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px]" src="Hemant.jpg" alt="Hemant Kamble" />
+                <Image width={30} height={30} className="w-full h-full bg-black rounded-[20px] object-cover object-[40%]" src="Hemant.jpg" alt="Hemant Kamble" />
               </div>
               <p className="text-white pt-3 text-center font-nunito font-semibold">Hemant Kamble</p>
+              <p className="text-white pt-1 text-center font-nunito font-semibold">Publicity and Marketing Head</p>
               <div className="flex justify-center gap-7 mt-3">
                 <a href="https://www.facebook.com/hemant.kamble.9803150?mibextid=kFxxJD">
                   <Image width={30} height={30} className="w-[30px] h-[30px] hover:scale-110 transition" src="facebook.png" alt="Facebook2" />
