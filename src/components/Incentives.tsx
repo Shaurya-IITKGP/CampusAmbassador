@@ -34,7 +34,7 @@ const Incentives = () => {
             </div>
             <div className='ml-1 font-bold bg-gradient-to-b from-zinc-700 via-zinc-800 to-black bg-opacity-75 rounded-md sm:shadow-2xl  hover:shadow-orange-500 sm:shadow-white p-4 text-sm sm:text-md font-sans grid items-center lg:h-[150px] lg:w-10/12 opacity-85 '>
              <p className=' tracking-normal'>
-             Certificate of Acknowledgment, duly signed by the Chairman of <span className=" text-lightOrange">Shaurya</span>  and the President of Gymkhana <span className=" text-lightOrange">IIT Kharagpur</span>.
+             Certificate of Acknowledgment, duly signed by the professor of <span className=" text-lightOrange">IIT Kharagour</span> as a letter of recommendation.
               </p> 
             </div>
           </div>
