@@ -35,7 +35,7 @@ const NewHome = () => {
           </div>
 
           {/* Subheading */}
-          <div className="text-white text-xl lg:text-2xl flex justify-end -ml-8 sm:-ml-0 mt-3 w-full">
+          <div className="text-white text-xl lg:text-2xl flex justify-end md:justify-center lg:justify-end -ml-8 sm:-ml-0 mt-3 w-full">
             <div className=" font-sans flex font-semibold animate-slide-in-right">
               <p className="text-sm font-normal bg-gradient-to-b from-zinc-400 via-zinc-500 to-zinc-600 bg-clip-text text-transparent animate-gradient   ">UNLEASH THE SHAURYA</p>
             </div>
@@ -54,9 +54,9 @@ const NewHome = () => {
 
 
           {/* CTA Button */}
-          <div id="Become a Campus Ambassador" className="text-white mt-10 mr-20 flex justify-center md:justify-around  w-full animate-slideUp">
-            <div className='text-black select-none md:block hidden'>hello</div>
-            <button className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96 justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
+          <div id="Become a Campus Ambassador" className="text-white mt-10 flex lg:justify-end justify-center mr-0 md:mr-0 lg:mr-20   animate-slideUp">
+
+            <button className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96  justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
               <div>Apply to become Shaurya CA</div>
               <div className="mt-1">
                 <FaArrowRight />
