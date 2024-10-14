@@ -70,7 +70,7 @@ const faqData = [
   },
   {
     question: 'Who can apply for the Campus Ambassador Program?',
-    answer: 'Current university or college students with strong communication skills and a genuine enthusiasm for Antaragni are encouraged to apply.',
+    answer: 'Current university or college students with strong communication skills and a genuine enthusiasm for Shaurya are encouraged to apply.',
   },
   {
     question: 'How do I apply for the program?',

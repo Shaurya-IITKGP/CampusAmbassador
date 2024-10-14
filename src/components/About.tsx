@@ -25,13 +25,7 @@ const About = () => {
     <span className='text-lightOrange font-bold'>
       Shaurya, IIT Kharagpur&apos;s
     </span>{' '}
-    Premiere sport&apos;s festival, is an opportunity to bring your dreams,
-    aspirations, and desires to life. We believe sports prepare you for life,
-    because each game is life in miniature. We invite you to join hands with us
-    and embark on this journey of a lifetime, with lush green grounds for a
-    battlefield and raw passion as your weapon of choice. The home contingent
-    stands strong in anticipation of an invasion, but you must breach our
-    fortress first.
+    annual inter-collegiate sports fest, held over a span of three days. Since its inception, Shaurya has become a platform that celebrates the spirit of sportsmanship and fosters a vibrant sports culture among college athletes across the nation. Now in its sixth edition, Shaurya brings together passion, competition, and camaraderie, offering a stage where athletes can showcase their skills, push their limits, and create unforgettable memories. Join us in this journey of determination, energy, and sports excellence.
   </p>
 </span>
 

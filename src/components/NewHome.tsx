@@ -2,8 +2,15 @@
 import React, { useContext } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import { MyContext } from './Context.jsx';
+import { useRouter } from 'next/navigation';
 
 const NewHome = () => {
+
+  const router = useRouter();
+
+  const divert =(url:string)=>{
+    router.push(url);
+  }
 
   const {homeView } = useContext(MyContext);
   return (
@@ -44,9 +51,9 @@ const NewHome = () => {
           <div className="lg:hidden text-white p-2 mt-6 flex justify-center text-center">
   <div className="font-sans font-bold w-11/12 sm:w-4/5 text-center " 
     style={{ lineHeight: '1.5', textAlign: 'justify', maxWidth: '800px' }}>
-    Shaurya IIT Kharagpur presents you the chance to become a 
-    <span className="font-extrabold text-lightOrange"> CAMPUS </span>
-    <span className="font-extrabold text-lightOrange"> AMBASSADOR </span> 
+    Shaurya IIT Kharagpur proudly presents you the with exciting chance to become a 
+    <span className=" font-extrabold text-lightOrange"> CAMPUS </span>
+    <span className=" font-extrabold text-lightOrange"> AMBASSADOR </span> 
     and take your skills to the next level.
   </div>
 </div>
@@ -54,9 +61,12 @@ const NewHome = () => {
 
 
           {/* CTA Button */}
+
           <div id="Become a Campus Ambassador" className="text-white mt-10 flex lg:justify-end justify-center mr-0 md:mr-0 lg:mr-20   animate-slideUp">
 
-            <button className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96  justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
+            <button  onClick={()=>divert("https://forms.gle/M66ieBT2s38aFV1g6")} className="border border-slate-700 rounded-full text-center bg-slate-700 hover:text-white bg-opacity-15 p-4 font-semibold flex space-x-2 lg:w-96  justify-around hover:bg-opacity-75 shadow-darkOrange shadow-2xl">
+
+         
               <div>Apply to become Shaurya CA</div>
               <div className="mt-1">
                 <FaArrowRight />

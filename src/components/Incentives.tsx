@@ -34,7 +34,7 @@ const Incentives = () => {
             </div>
             <div className='ml-1 font-bold bg-gradient-to-b from-zinc-700 via-zinc-800 to-black bg-opacity-75 rounded-md sm:shadow-2xl  hover:shadow-orange-500 sm:shadow-white p-4 text-sm sm:text-md font-sans grid items-center lg:h-[150px] lg:w-10/12 opacity-85 '>
              <p className=' tracking-normal'>
-             Certificate of Acknowledgment, duly signed by the Chairman of <span className=" text-lightOrange">Shaurya</span>  and the President of Gymkhana <span className=" text-lightOrange">IIT Kharagpur</span>.
+             Certificate of Acknowledgment, duly signed by the professor of <span className=" text-lightOrange">IIT Kharagpur</span> as a letter of recommendation.
               </p> 
             </div>
           </div>
@@ -46,7 +46,7 @@ const Incentives = () => {
           <div className='flex  mb-4 mt-10 lg:mt-28 lg:w-11/12 lg:ml-8 lg:gap-4 border border-lightOrange lg:border-none'>
           <div className='ml-1 font-bold bg-gradient-to-b from-zinc-700 via-zinc-800 to-black bg-opacity-75 rounded-md sm:shadow-2xl  hover:shadow-orange-500 sm:shadow-white p-4 text-sm sm:text-md font-sans grid items-center sm:h-[150px] text-left lg:w-10/12 opacity-85'>
             <p>
-            Privilege to attend all formal events and programs organized by <span className=" text-lightOrange font-bold">Shaurya IIT Kharagpur</span>.
+            Privilege to attend all formal events and programs organized by <span className=" text-lightOrange font-bold">Shaurya, IIT Kharagpur</span>.
             </p>
 
             </div>
