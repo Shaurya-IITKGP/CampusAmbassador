@@ -25,7 +25,7 @@ const About = () => {
     <span className='text-lightOrange font-bold'>
       Shaurya, IIT Kharagpur&apos;s
     </span>{' '}
-    annual inter-collegiate sports fest of IIT Kharagpur, held over an span of three days. Since its inception, Shaurya has become a platform that celebrates the spirit of sportsmanship and fosters a vibrant sports culture among college athletes across the nation. Now in its sixth edition, Shaurya brings together passion, competition, and camaraderie, offering a stage where athletes can showcase their skills, push their limits, and create unforgettable memories. Join us in this journey of determination, energy, and sports excellence.
+    annual inter-collegiate sports fest , held over a span of three days. Since its inception, Shaurya has become a platform that celebrates the spirit of sportsmanship and fosters a vibrant sports culture among college athletes across the nation. Now in its sixth edition, Shaurya brings together passion, competition, and camaraderie, offering a stage where athletes can showcase their skills, push their limits, and create unforgettable memories. Join us in this journey of determination, energy, and sports excellence.
   </p>
 </span>
 
