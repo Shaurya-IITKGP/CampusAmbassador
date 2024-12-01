@@ -20,3 +20,33 @@ body {
 
     z-index: 0; */
 }
+
+
+
+
+@keyframes bubble-size {
+  0%, 75% {
+    width: var(--size, 2rem);
+    height: var(--size, 2rem);
+  }
+  100% {
+    width: 0rem;
+    height: 0rem;
+  }
+}
+
+@keyframes bubble-move {
+  0% {
+    bottom: -4rem;
+  }
+  100% {
+    bottom: var(--distance, 10rem);
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
